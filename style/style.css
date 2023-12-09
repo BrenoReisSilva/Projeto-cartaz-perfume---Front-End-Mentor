@@ -1,0 +1,32 @@
+/* Estilização padrão */
+body {
+  display: grid;
+  max-width: 1440px;
+  margin: 0px;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  margin: 0 auto;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+/* Conteúdo principal */
+
+.conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 600px;
+  align-content: center;
+}
+
+.informacoes {
+  background: #fff;
+}

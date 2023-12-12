@@ -1,4 +1,6 @@
 /* Estilização padrão */
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 body {
   display: grid;
   max-width: 1440px;
@@ -20,6 +22,12 @@ p {
   margin: 0px;
 }
 
+span,
+p,
+a {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
 /* Conteúdo principal */
 
 .conteudo {
@@ -31,6 +39,34 @@ p {
 
 .informacoes {
   background: #fff;
+  padding: 30px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.perfume {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: Bold;
+  line-height: 1;
+  margin-bottom: 30px;
+ font-family: 'Fraunces', serif;
+}
+
+.descricao {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.preco {
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
 }

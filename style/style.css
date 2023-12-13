@@ -106,3 +106,12 @@ a {
   font-weight: 700;
 }
 
+@media (max-width:300px) {
+  .informacoes {
+    margin: 15px;
+  }
+
+  .img-perfume{
+    display: none;
+  }
+}
